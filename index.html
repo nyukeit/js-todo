@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Really Simple To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Work+Sans:wght@300;400;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <navbar class="navbar">
+          <nav class="navitem">
+            <a  href="/"><span class="fa-solid fa-calendar-days icon"></span>Today</a></span>
+          </nav>
+          <nav class="navitem">
+            <a href="work.html"><span class="fa-solid fa-briefcase icon"></span>Work</a>
+          </nav>
+        </navbar>
+    <main>
+        <h1 class="list-title">Today</h1>
+        <h2 id="date">Date</h2>
+        <h3 id="alert_message"></h3>
+        <div class="todo_card">
+          <input id="inputAdd" type="text" placeholder="Type To-Do Here">
+          <button id="buttonAdd"><i class="fa-solid fa-plus add-icon"></i></button>
+          <!-- <div class="btn-div">
+          </div> -->
+        </div>
+        <section class="flex_row">
+          <ul id="list0">
+            <h3 class="title3">To do</h3>
+          </ul>
+          <ul id="list1">
+            <h3 class="title3">Did it</h3>
+          </ul>
+          <ul id="list2">
+            <h3 class="title3">Trash</h3>
+          </ul>
+        </section>
+    </main>
+
+    <footer>© 2023 ChrisYanusKeit</footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/09d169dcaf.js" crossorigin="anonymous"></script>
+</body>
+</html>

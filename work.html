@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tododlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <navbar class="navbar">
+          <nav class="navitem">
+            <a  href="index.html"><span class="fa-solid fa-calendar-days icon"></span>Today</a></span>
+          </nav>
+          <nav class="navitem">
+            <a href="#"><span class="fa-solid fa-briefcase icon"></span>Work</a>
+          </nav>
+        </navbar>
+    <main>
+        <h1 class="list-title">Work List</h1>
+        <h2 class="list-title" id="date">Date</h2>
+
+        <div class="todo_card">
+            <input id="inputAdd" type="text" placeholder="Type To-Do Here">
+            <div class="btn-div">
+                <button id="buttonAdd"><i class="fa-solid fa-plus add-icon"></i></button>
+            </div>
+        </div>
+        <ul id="list"></ul>
+    </main>
+
+    <footer>© 2023 CYN</footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/09d169dcaf.js" crossorigin="anonymous"></script>
+</body>
+</html>
